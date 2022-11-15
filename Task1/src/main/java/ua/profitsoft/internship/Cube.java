@@ -24,7 +24,7 @@ public class Cube implements Shape{
     }
 
     @Override
-    public double area() {
+    public double volume() {
         return lengthEdgeOfCube*lengthEdgeOfCube*lengthEdgeOfCube;
     }
 }

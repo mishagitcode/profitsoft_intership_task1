@@ -26,7 +26,7 @@ public class Sphere implements Shape{
     }
 
     @Override
-    public double area() {
+    public double volume() {
         return (4* PI *radius*radius*radius)/3;
     }
 }
