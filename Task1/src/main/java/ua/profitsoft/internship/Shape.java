@@ -1,5 +1,5 @@
 package ua.profitsoft.internship;
 
 public interface Shape {
-    public double area();
+    public double volume();
 }

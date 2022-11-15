@@ -40,7 +40,7 @@ public class Cylinder implements Shape{
     }
 
     @Override
-    public double area() {
+    public double volume() {
         return PI*height*radius*radius;
     }
 }
